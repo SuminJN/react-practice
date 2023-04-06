@@ -1,12 +1,8 @@
-import Button from "./Button";
+import { useState, useEffect } from "react";
+import Movie from "./components/Movie";
 
 function App() {
-  return (
-    <div>
-      <h1>Welcome Back!</h1>
-      <Button text={"Continue"}/>
-    </div>
-  );
+  return null;
 }
 
 export default App;
