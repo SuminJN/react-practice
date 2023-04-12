@@ -1,0 +1,11 @@
+.detail__backgroundImg {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.detail__contents {
+    position: relative;
+    z-index: 2;
+}

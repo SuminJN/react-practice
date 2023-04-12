@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import Movie from "../components/Movie";
-import styles from "./Home.module.css";
+import styles from "../styles/List.module.css";
 
-function Home() {
+function List() {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
 
@@ -41,4 +41,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default List;

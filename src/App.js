@@ -1,5 +1,5 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from "./routes/Home";
+import List from "./routes/List";
 import Detail from "./routes/Detail";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
           <Detail />
         </Route>
         <Route path="/">
-          <Home />
+          <List />
         </Route>
       </Switch>
     </BrowserRouter>
